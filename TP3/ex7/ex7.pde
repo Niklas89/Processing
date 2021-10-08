@@ -1,0 +1,10 @@
+size(800,800);
+fill(255,0,0);
+rect(300,300,200,200);
+fill(0,0,255);
+ellipse(300,300,200,200);
+rect(400,400,200,200);
+strokeWeight(5);
+stroke(255,255,255);
+arc(350,300,100,100,PI,2*PI);
+save("artistique.png");
