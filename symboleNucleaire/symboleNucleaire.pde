@@ -1,0 +1,14 @@
+size(700,700);
+noStroke();
+fill(255,255,0);
+stroke(255,255,0);
+strokeWeight(9);
+ellipse(350,350,300,300);
+fill(0,0,0);
+arc(350,350,300,300,0,0+PI/3);
+arc(350,350,300,300,2*PI/3,2*PI/3 + PI/3);
+arc(350,350,300,300,4*PI/3,4*PI/3 + PI/3);
+stroke(255,255,0);
+strokeWeight(9);
+ellipse(350,350,60,60);
+save("symbolenucleaire.png");
